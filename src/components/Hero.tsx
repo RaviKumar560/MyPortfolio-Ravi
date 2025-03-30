@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Ravi_Kumar from "../image/raviProfile.jpg";
-import Ravi_Kumar from "../public/RAVI_RESUME.pdf";
 import {
   Download,
   Facebook,
@@ -137,9 +135,7 @@ const Hero = () => {
 
             {/* Image Container */}
             <div className="absolute inset-[3px] rounded-full overflow-hidden bg-[#1E293B] border-4 border-gray-700 shadow-lg">
-              <img
-                src="/image/raviProfile.jpeg"
-                alt="Ravi_Kumar"
+              <img src="/image/raviProfile.jpeg" alt="Ravi_Kumar" 
                 className="w-full h-full object-cover object-top"
               />
             </div>
