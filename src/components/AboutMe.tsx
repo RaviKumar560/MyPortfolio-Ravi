@@ -90,7 +90,7 @@ const AboutMe = () => {
               {/* Image with border */}
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-purple-500/50 shadow-xl">
                 <img
-                  src="/image/raviabout.jpeg"
+                  src={`${import.meta.env.BASE_URL}image/raviabout.jpeg`}
                   alt="Ravi Kumar"
                   className="w-full h-full object-cover"
                 />
