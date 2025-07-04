@@ -60,6 +60,7 @@ const Skills = () => {
       icon: Code,
       skills: [
         { name: "Java", icon: FaJava, color: "text-red-500" },
+         { name: "DSA", color: "text-yellow-400" },
         { name: "JavaScript", color: "text-yellow-400" },
         { name: "HTML5", icon: FaHtml5, color: "text-orange-500" },
         { name: "CSS3", icon: FaCss3, color: "text-blue-500" },
@@ -76,6 +77,7 @@ const Skills = () => {
         { name: "Spring Security", color: "text-green-600" },
         { name: "Microservices", color: "text-teal-400" },
         { name: "React.js", icon: FaReact, color: "text-blue-400" },
+        { name: "Angular",  color: "text-blue-400" },
       ],
     },
     {
