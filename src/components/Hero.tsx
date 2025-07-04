@@ -66,7 +66,7 @@ const Hero = () => {
           </div>
 
           <p className="text-gray-300 leading-relaxed max-w-2xl text-lg">
-            Passionate <strong>Java Full Stack Developer</strong> with over 2
+            Passionate <strong>Java Full Stack Developer</strong> with over 3
             Year of expertise in in designing, developing, and maintaining
             scalable applications. Skilled in building robust REST APIs using{" "}
             <strong>Java, Spring Boot, React,</strong> and{" "}
@@ -80,7 +80,7 @@ const Hero = () => {
             {[
               {
                 icon: Linkedin,
-                href: "https://linkedin.com/in/yourlinkedin",
+                href: "https://www.linkedin.com/in/ravi-kumar-224671356/",
                 color: "group-hover:text-blue-400",
               },
               {
@@ -90,7 +90,7 @@ const Hero = () => {
               },
               {
                 icon: Mail,
-                href: "mailto:techkumarravi563@gmail.com",
+                href: "mailto:ravikumar.tech.in@gmail.com",
                 color: "group-hover:text-red-500",
               },
             ].map((social, index) => (
