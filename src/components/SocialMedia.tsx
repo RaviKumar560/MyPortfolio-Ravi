@@ -22,7 +22,7 @@ const SocialMedia = () => {
         <Linkedin className="w-6 h-6" />
       </a>
       <a
-        href="mailto:rk5118754@gmail.com"
+        href="mailto:ravikumar.tech.in@gmail.com"
         className="text-secondary hover:text-primary transition-colors duration-300"
       >
         <Mail className="w-6 h-6" />
