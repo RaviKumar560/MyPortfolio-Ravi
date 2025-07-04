@@ -85,8 +85,8 @@ const Contact = () => {
 
         {/* Contact Details */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-          <ContactItem icon={Phone} title="Phone" content="+917266940525" />
-          <ContactItem icon={Mail} title="Email" content="techkumarravi563@gmail.com" />
+          <ContactItem icon={Phone} title="Phone" content="+919616086635" />
+          <ContactItem icon={Mail} title="Email" content="ravikumar.tech.in@gmail.com" />
           <ContactItem icon={MapPin} title="Location" content="Kanpur, Uttar Pradesh (India)" />
         </div>
 
