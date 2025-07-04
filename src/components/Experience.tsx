@@ -48,8 +48,8 @@ const Experience = () => {
   const experiences = [
     {
       position: "Software Developer",
-      company: "Gigabyte Infocomm Pvt Ltd",
-      duration: "April 2023 - Present",
+      company: "Alpha Mind Solution",
+      duration: "September 2022 - Present",
       responsibilities: [
         "Conducted comprehensive analyses of user needs and software requirements, leading to the design of scalable, efficient solutions.",
         "Engineered and maintained high-availability applications that align with strategic business objectives.",
