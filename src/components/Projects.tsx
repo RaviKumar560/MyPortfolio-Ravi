@@ -83,7 +83,7 @@ const Projects = () => {
       description:
         "UniEnroll is a backend system designed for university admission management, handling student applications, document verification, and admission status tracking. The system ensures secure processing of student records without front-end dependency.",
       icon: School,
-      duration: "Oct 2023 - April 2024",
+      duration: "May 2023 - June 2024",
       responsibilities: [
         "Developed backend microservices for student application processing, eligibility verification, and seat allocation.",
         "Designed a role-based authentication system for students, administrators, and faculty.",
