@@ -101,9 +101,9 @@ const AboutMe = () => {
           {/* Text Content */}
           <div className="space-y-6 animate-fade-up order-1 lg:order-2">
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm Ravi Kumar, a Full-Stack Developer with over 2 years of
+              I'm Ravi Kumar, a Full-Stack Developer with over 3+ years of
               experience in designing and developing scalable software
-              solutions. Currently, I am working at Gigabyte Infocomm Pvt Ltd,
+              solutions. Currently, I am working at Alpha Mind Solution,
               where I specialize in Java, Spring Boot, Microservices, and
               React.js to build robust and efficient applications.
             </p>
