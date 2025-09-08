@@ -1,4 +1,3 @@
-
 import React from "react";
 import { GraduationCap, School } from "lucide-react";
 
@@ -17,7 +16,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div
-      className="relative bg-[#2A3749] p-8 rounded-xl shadow-lg border border-purple-500/30 
+      className="relative left-96 bg-[#2A3749] p-8 rounded-xl shadow-lg border border-purple-500/30 
     transition-all duration-300 transform hover:scale-[1.05] 
     hover:shadow-xl hover:shadow-purple-500/30 hover:border-purple-400 hover:bg-[#364155] 
     before:absolute before:inset-0 
@@ -70,7 +69,7 @@ const Projects = () => {
       description:
         "•	EduMart is an online learning marketplace that connects students with instructors, offering courses across various domains. The platform enables users to enroll in courses, track progress, and receive certifications. AWS services are utilized for secure content storage and scalable cloud hosting. ",
       icon: GraduationCap,
-      duration: "Aug 2024 - Present",
+      duration: "January 2025 - Present",
       responsibilities: [
         "Developed microservices-based architecture for course management, user authentication, and payment processing.",
         "Implemented RESTful APIs for managing course enrollments, instructor uploads, and student progress tracking.",
@@ -78,25 +77,11 @@ const Projects = () => {
         "Designed a responsive UI using React.js, HTML, CSS, and JavaScript for an interactive learning experience.",
       ],
     },
-    {
-      title: "UniEnroll",
-      description:
-        "UniEnroll is a backend system designed for university admission management, handling student applications, document verification, and admission status tracking. The system ensures secure processing of student records without front-end dependency.",
-      icon: School,
-      duration: "May 2023 - June 2024",
-      responsibilities: [
-        "Developed backend microservices for student application processing, eligibility verification, and seat allocation.",
-        "Designed a role-based authentication system for students, administrators, and faculty.",
-        "Implemented database management using MySQL for secure and efficient student record handling.",
-        "Created RESTful APIs for integration with university portals and third-party verification services.",
-        "Optimized backend performance to handle large-scale admission cycles efficiently.",
-      ],
-    },
   ];
 
   return (
-    <section className="py-20 px-6 bg-[#1E293B]" id="projects">
-      <div className="max-w-5xl mx-auto">
+    <section className="py-20 px-6 bg-[#1E293B] " id="projects">
+      <div className="mx-auto">
         <h2 className="text-4xl font-bold text-center text-white mb-6">
           Featured Projects
         </h2>

@@ -1,6 +1,5 @@
-
-import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import React from "react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const SocialMedia = () => {
   return (

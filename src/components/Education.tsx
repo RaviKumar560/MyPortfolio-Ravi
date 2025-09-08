@@ -1,4 +1,3 @@
-
 import React from "react";
 import { GraduationCap } from "lucide-react";
 
@@ -44,6 +43,12 @@ const EducationCard = ({
 
 const Education = () => {
   const education = [
+    {
+      degree: "Master Of Computer Application",
+      institution: "Dr.virendra Swarup Institute Of Computer Studies, Kanpur",
+      year: "2025",
+      score: "8.26 CGPA",
+    },
     {
       degree: "Bachelor of Science",
       institution: "Chhatrapati Shahu Ji Maharaj University, Kanpur",

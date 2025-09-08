@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 
@@ -14,11 +13,13 @@ const Navigation = () => {
       skills: "skills",
       projects: "projects",
       experience: "experience",
+      certifications: "certifications",
+      academicproject: "academicproject",
       contact: "contact",
     };
-    
+
     const element = document.getElementById(sectionMap[sectionId]);
-    
+
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
       setIsOpen(false);
@@ -29,7 +30,10 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 bg-[#1E293B]/80 backdrop-blur-md z-50 border-b border-purple-500/20 shadow-md">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-white cursor-pointer hover:text-purple-400 transition-colors" onClick={() => scrollToSection("home")}>
+        <h1
+          className="text-2xl font-bold text-white cursor-pointer hover:text-purple-400 transition-colors"
+          onClick={() => scrollToSection("home")}
+        >
           Portfolio
         </h1>
 
@@ -42,6 +46,8 @@ const Navigation = () => {
             "Skills",
             "Projects",
             "Experience",
+            "Certifications",
+            "Academicproject",
             "Contact",
           ].map((item) => (
             <button
@@ -89,6 +95,8 @@ const Navigation = () => {
             "Skills",
             "Projects",
             "Experience",
+            "Certifications",
+            "AcademicProject",
             "Contact",
           ].map((item) => (
             <button

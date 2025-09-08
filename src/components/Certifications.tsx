@@ -1,10 +1,23 @@
+import React from "react";
+import { Award } from "lucide-react";
 
-import React from 'react';
-import { Award } from 'lucide-react';
-
-const CertificationCard = ({ title, description }: { title: string; description: string }) => {
+const CertificationCard = ({
+  title,
+  description,
+}: {
+  title: string;
+  description: string;
+}) => {
   return (
-    <div className="bg-[#2A3749] p-6 rounded-lg shadow-md border border-purple-500/20 hover:shadow-lg transition-all duration-300 group">
+    <div
+      className="relative bg-[#2A3749] p-8 rounded-xl shadow-lg border border-purple-500/30 
+      transition-all duration-300 transform hover:scale-[1.05] 
+      hover:shadow-xl hover:shadow-purple-500/30 hover:border-purple-400 hover:bg-[#364155] 
+      before:absolute before:inset-0 
+      before:bg-gradient-to-br before:from-transparent before:via-[#2A3749]/40 before:to-[#3B455A]/50 
+      before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 
+      group"
+    >
       <div className="flex items-center gap-3 mb-2">
         <Award className="w-5 h-5 text-purple-400 group-hover:scale-110 transition-transform duration-300" />
         <h3 className="font-semibold text-white">{title}</h3>
@@ -18,24 +31,32 @@ const Certifications = () => {
   const certifications = [
     {
       title: "Coding Ninja CodeKaze'24",
-      description: "Participated in the prestigious competitive programming event organized by Coding Ninjas"
+      description:
+        "Participated in the prestigious competitive programming event organized by Coding Ninjas",
     },
     {
       title: "Java Program Training",
-      description: "Certificate of successful completion"
+      description: "Certificate of successful completion",
     },
     {
       title: "Java Full Stack Web Development",
-      description: "Successfully completed a comprehensive web development training program"
+      description:
+        "Successfully completed a comprehensive web development training program",
+    },
+    {
+      title: "Employability Enhancement Program",
+      description:
+        "Skill-Empowering Program conducted by Centum Foundation, supported by Infosys Foundation",
     },
     {
       title: "HTML Programming",
-      description: "Earned from Great Learning"
+      description: "Earned from Great Learning",
     },
     {
       title: "Professional Accounting and Business Systems",
-      description: "Completed a diploma focused on accounting and business system applications"
-    }
+      description:
+        "Completed a diploma focused on accounting and business system applications",
+    },
   ];
 
   return (

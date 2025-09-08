@@ -66,7 +66,7 @@ const Hero = () => {
           </div>
 
           <p className="text-gray-300 leading-relaxed max-w-2xl text-lg">
-            Passionate <strong>Java Full Stack Developer</strong> with over 3
+            Passionate <strong>Java Full Stack Developer</strong> with over 2
             Year of expertise in in designing, developing, and maintaining
             scalable applications. Skilled in building robust REST APIs using{" "}
             <strong>Java, Spring Boot, React,</strong> and{" "}
@@ -111,7 +111,7 @@ const Hero = () => {
 
           {/* Download CV Button */}
           <a
-            href="https://ravikumar560.github.io/MyPortfolio-Ravi/RAVI_RESUME.pdf"
+            href="https://drive.google.com/file/d/1whj5nGj_SpNqnqak5t0dMD54-bfKIDc0/view?usp=drive_link"
             download="RAVI_RESUME.pdf"
             className="relative inline-flex items-center gap-2 px-6 py-3 bg-purple-600 rounded-full text-white font-medium shadow-lg transition-all duration-300 hover:bg-purple-700 hover:scale-105"
           >
@@ -135,8 +135,9 @@ const Hero = () => {
 
             {/* Image Container */}
             <div className="absolute inset-[3px] rounded-full overflow-hidden bg-[#1E293B] border-4 border-gray-700 shadow-lg">
-              <img src={`${import.meta.env.BASE_URL}image/raviProfile.jpeg`} 
-                alt="Ravi_Kumar" 
+              <img
+                src={`${import.meta.env.BASE_URL}image/raviProfile.jpeg`}
+                alt="Ravi_Kumar"
                 className="w-full h-full object-cover object-top"
               />
             </div>

@@ -1,13 +1,14 @@
-
-import React from 'react';
-import Navigation from '@/components/Navigation';
-import Hero from '@/components/Hero';
-import AboutMe from '@/components/AboutMe';
-import Skills from '@/components/Skills';
-import Experience from '@/components/Experience';
-import Projects from '@/components/Projects';
-import Education from '@/components/Education';
-import Contact from '@/components/Contact';
+import React from "react";
+import Navigation from "@/components/Navigation";
+import Hero from "@/components/Hero";
+import AboutMe from "@/components/AboutMe";
+import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
+import Education from "@/components/Education";
+import Contact from "@/components/Contact";
+import Certifications from "@/components/Certifications";
+import AcademicProject from "@/components/AcademicProject";
 
 const Index = () => {
   return (
@@ -19,6 +20,8 @@ const Index = () => {
       <Experience />
       <Projects />
       <Education />
+      <Certifications />
+      <AcademicProject />
       <Contact />
     </div>
   );
