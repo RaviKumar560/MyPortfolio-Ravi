@@ -49,7 +49,7 @@ const AboutMe = () => {
           email: phone, // Using phone field for the email field in the template
           message: `Someone is interested in hiring you! Name: ${name}, Phone: ${phone}`,
         },
-        "teBMOXOJ1RqfKhvAa" // Public Key
+        "teBMOXOJ1RqfKhvAa", // Public Key
       )
       .then(() => {
         toast({
@@ -101,9 +101,9 @@ const AboutMe = () => {
           {/* Text Content */}
           <div className="space-y-6 animate-fade-up order-1 lg:order-2">
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm Ravi Kumar, a Full-Stack Developer with over 2 years of
+              I'm Ravi Kumar, a Full-Stack Developer with over 3+ years of
               experience in designing and developing scalable software
-              solutions. Currently, I am working at Alpha Mind Solution, where I
+              solutions. Currently, I am working at Youlogix Infotech, where I
               specialize in Java, Spring Boot, Microservices, and React.js to
               build robust and efficient applications.
             </p>
@@ -144,10 +144,13 @@ const AboutMe = () => {
             </div>
 
             <p className="text-lg text-gray-300 leading-relaxed">
-              I have worked on impactful projects like EduMart, an online
-              learning marketplace. My passion lies in solving complex problems,
-              improving application performance, and collaborating in agile
-              environments to build innovative solutions.
+              I have worked on impactful projects like HealthPredict, an
+              AI-powered disease prediction platform for real-time health risk
+              analysis, and UniEnroll, a university admission management system
+              that automates application processing, verification, and seat
+              allocation. My passion lies in solving complex problems, improving
+              application performance, and collaborating in agile environments
+              to build scalable, innovative solutions.
             </p>
 
             <p className="text-lg text-gray-300 leading-relaxed">
